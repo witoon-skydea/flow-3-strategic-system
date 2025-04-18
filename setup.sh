@@ -9,7 +9,7 @@ mkdir -p backend/db
 # Create .env file if it doesn't exist
 if [ ! -f .env ]; then
   echo "NODE_ENV=development" > .env
-  echo "PORT=5000" >> .env
+  echo "PORT=3456" >> .env
   echo "JWT_SECRET=flow3secretkey123456" >> .env
   echo "BASE_PATH=/" >> .env
 fi
